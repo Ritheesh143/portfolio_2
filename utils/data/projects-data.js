@@ -16,6 +16,40 @@ export const projectsData = [
     },
     // {
     //     id: 2,
+    //     name: 'personal portfolio site',
+    //     // description: "This project aims to identify common diseases associated with Polycystic Ovary Syndrome (PCOS) and predict the risk of obesity. PCOS affects approximately 20% of women in India, with 5-10% of women of reproductive age suffering from this condition. The project seeks to raise awareness about the prevalence of PCOS among Indian women and highlight the potential health risks it poses.",
+    //     tools:['Figma']
+    // },
+    // {
+    //     id: 3,
+    //     name: 'signup pafe for an app plication',
+    //     description: "Created ui screen with simple unsplash image layout and buttons posted for signin",
+    //     tools:['Figma']
+    // },
+    {
+        id: 2,
+        name: 'App design',
+        role: 'UI/UX Developer',
+        description: "Created UI screens for a flight booking app.",
+        tools:['Figma']
+    },
+    {
+        id: 3,
+        name: 'Design of Landing Page',
+        role: 'UI/UX Developer',
+        description: "Created a UI-designed website page featuring a glassmorphism trend effect for a product.",
+        tools:['Figma']
+    },
+    
+    {
+        id: 4,
+        name: '3D Popup Effect Image & Social Media Post Design',
+        role: 'UI/UX Developer',
+        description: "Created a UI-designed Instagram post for a themed café, featuring a 3D popup effect image. The project included both image and social media post design.",
+        tools: ['Figma','Canva','PS']
+    },
+    // {
+    //     id: 2,
     //     name: 'Travel Agency App',
     //     description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
     //     tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],

@@ -27,7 +27,7 @@ function HeroSection() {
             Hello, <br />
             This is {' '}
             <span className=" text-pink-500">{personalData.name}</span>
-            {` , I'm a Professional `}
+            {` , I'm a `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
             .
           </h1>
@@ -121,9 +121,94 @@ function HeroSection() {
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
+                <span className="text-white">UX/UI Techniques:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">User Research</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Information Architecture</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">HCI</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">UCD</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Wireframing</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Prototyping</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Design Process</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Usability Testing</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className="text-white">Graphics & Illustration:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">Branding</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Icon Design</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Typography</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Color Theory</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className="text-white">Visual Design Tools:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">Canva</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Adobe Photoshop</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Illustrator</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className="text-white">Web Design Tools:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">HTML5</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">JavaScript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Bootstrap</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Flutter</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className="text-white">UI Design Tools:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">Adobe XD</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Figma</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Balsamiq</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Invision</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Sketch</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className="text-white">AI Tools:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">DoraAI</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">ChatGPT</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Gemini</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              {/* <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">UX Design Tools:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">Maze</span>
+                <span className="text-amber-300">User Research</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Jira</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -133,8 +218,8 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Zeplin</span>
                 <span className="text-gray-400">{"'],"}</span>
-              </div>
-              <div className="ml-4 lg:ml-8 mr-2">
+              </div> */}
+              {/* <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">Web Design Tools:</span>
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">HTML5</span>
@@ -220,7 +305,7 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Gemini</span>
                 <span className="text-gray-400">{"'],"}</span>
-              </div>
+              </div> */}
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
                 <span className="text-orange-400">true</span>
